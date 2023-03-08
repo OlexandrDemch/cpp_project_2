@@ -4,16 +4,16 @@ using namespace std;
 int main()
 {
     int year;
-    cout << "Enter a year: ";
+    cout << "Vvedit rik: ";
     cin >> year;
 
     bool isLeapYear = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
 
     if (isLeapYear) {
-        cout << "In " << year << " year = 366 days" << endl;
+        cout << "V " << year << " rotsi = 366 dniv" << endl;
     }
     else {
-        cout << "In " << year << " year = 365 days" << endl;
+        cout << "V " << year << " rotsi = 365 dniv" << endl;
     }
 
     return 0;
