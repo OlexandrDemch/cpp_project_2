@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 int main() {
-	int hryivnas, kopecks;
-	cout << "Enter amount of hryivnas:";
-	cin >> hryivnas;
-	cout << "Enter amount of kopecks:";
-	cin >> kopecks;
-	int excess_kopecks = kopecks % 100;
-	hryivnas += kopecks / 100;
-	kopecks = excess_kopecks;
+	int hryven, kopiyok;
+	cout << "Vvedit skylko hryven:";
+	cin >> hryven;
+	cout << "Vvedit skylko kopiyok:";
+	cin >> kopiyok;
+	int excess_kopiyok = kopiyok % 100;
+	hryven += kopiyok / 100;
+	kopiyok = excess_kopiyok;
 
-	cout << "Corrected amount is " << hryivnas << " hryvnias " << kopecks << " kopecks";
+	cout << "Pravylna suma groshey " << hryven << " hryven " << kopiyok << " kopiyok";
 	return 0;
 }
